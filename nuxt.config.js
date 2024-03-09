@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   build: {
     transpile: ['vue','vue-context'],
     extend(config, ctx) {}
