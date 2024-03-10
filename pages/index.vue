@@ -3,6 +3,10 @@
         <p @contextmenu.prevent="$refs.menu.open">
             Right click on me
         </p>
+        
+        <br><br>
+        
+        <button type="button" @contextmenu.prevent="$refs.menu.open">Right click on me 2</button>
 
         <vue-context ref="menu">
             <li>

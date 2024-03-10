@@ -8,11 +8,11 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=117809f0
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=cdca7086
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _c('div', [_vm._ssrNode("<p>\n        Right click on me\n    </p> "), _c('vue-context', {
+  return _c('div', [_vm._ssrNode("<p>\n        Right click on me\n    </p> <br><br> <button type=\"button\">Right click on me 2</button> "), _c('vue-context', {
     ref: "menu"
   }, [_c('li', [_c('a', {
     on: {
@@ -32,7 +32,7 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=117809f0
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=cdca7086
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.runtime.common.js
 var vue_runtime_common = __webpack_require__(0);
